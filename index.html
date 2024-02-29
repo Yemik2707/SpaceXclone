@@ -8,41 +8,88 @@
     <link rel="stylesheet" href="Reset.css">
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div id = "background">
-        <header class = "navBar">
-            <img class="logo"src="https://cdn.freebiesupply.com/logos/large/2x/spacex-logo-black-and-white.png"/>
-            <ul>
-                <li>FALCON 9</li>
-                <li>FALCON HEAVY</li>
-                <li>DRAGON</li>
-                <li>STARSHIP</li>
-                <li>HUMAN SPACEFLIGHT</li>
-                <li>RIDESHARE</li>
-            </ul>
-            <li class ="shop">SHOP</li>
-            <img class = "Menu" src="https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-14.jpg" alt="menubar">
-        </header> 
 
-        <div id = "Flight-Test">
-            <h4>FLIGHT TEST</h4>
-            <h1>STARSHIP SN11 HIGH-</h1>
-            <h1>ALTITUDE FLIGHT TEST</h1>
-            <button>REPLAY</button>
-        </div>
-    </div>  
-    
-    <div id = "firstpage">
+    <div id = "background">
+        <header>
+            <nav class = "navBar">
+                <img class="logo"src="https://cdn.freebiesupply.com/logos/large/2x/spacex-logo-black-and-white.png"/>
+        
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                    <a href = "#" class="nav-link">FALCON 9</a>  
+                    </li>
+                    <li class="nav-item">
+                   <a href = "#" class="nav-link">FALCON HEAVY</a> 
+                    </li>
+                    <li class="nav-item">
+                    <a href = "#" class="nav-link">DRAGON</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href = "#" class="nav-link">STARSHIP</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href = "#" class="nav-link">HUMAN SPACEFLIGHT</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href = "#" class="nav-link">RIDESHARE</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href = "#" class="nav-link">STARSHIELD</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href = "#" class="nav-link">STARLINK</a>
+                    </li>
+                </ul>
+                <div class="right-menu">
+                    <li class ="shop">SHOP</li>
+                    <div id="hamburger-menu">
+                        <a class="hamburger-button"> ☰ </a>
+                         <!-- <div class="navLinks">
+                            <a href="#">Home</a>
+                            <a href="#">Services</a>
+                            <a href="#">Contact</a> 
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                              </a>
+                        </div>  -->
+
+                        <!-- <script>
+                            function myFunction() {
+                              var x = document.getElementById("navLinks");
+                              if (x.style.display === "block") {
+                                x.style.display = "none";
+                              } else {
+                                x.style.display = "block";
+                              }
+                            }
+                            </script> -->
+                    </div>
+                </div>
+            </nav>
+       
+   
+                <div id = "landingpage">
+                    <div id = "upcominglaunch">
+                        <h4>UPCOMING LAUNCH</h4>
+                        <h1>PACE MISSION</h1>
+                        <button>WATCH</button>
+                    </div>
+                </div>
+        </header> 
+    </div>
+
+    <div id ="firstpage">
         <div id = "Recent-launch">
             <h4>RECENT LAUNCH</h4>
             <h1>STARLINK MISSION</h1>
             <button>REPLAY</button>
         </div>
+
     </div>
     <div id = "Secondpage">
         <div id = "Mission">
-            <h1>CREW-1 MISSION</h1>
-            <h5>Watch the Crew-1 mission from the beginning.</h5>
+            <h4>CREW-1 MISSION</h4>
+            <h1>Watch the Crew-1 mission from the beginning.</h1>
             <button>REPLAY</button>
         </div>
     </div>
@@ -57,8 +104,10 @@
    
     <footer> 
         <div class = "footer">
-            <h6>SPACEX 2021</h6>
-            <ul>
+            <div class ="footer-text">SPACEX   U+000A9 2024</h6>
+            <ul class="footer-list">
+                li*6>a.footer-list-link[href=#]
+                
                 <a class = "one" href="#">TWITTER</a>
                 <a class = "two" href="#">YOUTUBE</a>
                 <a class = "three" href="#">INSTAGRAM</a>
@@ -69,7 +118,7 @@
         </div>    
     </footer>
      
-</body>
+
 
 
 </html>
